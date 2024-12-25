@@ -1,0 +1,22 @@
+.column {
+  display: flex;
+  justify-self: center;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.column:hover {
+  transform: translateY(-20px);
+}
+.word {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.wordWomen {
+  position: absolute;
+  top: 50%;
+  left: 38%;
+}
